@@ -30,20 +30,7 @@ const Navbar = () => {
       setValidationStatus(false);
     } else {
       setValidationStatus(true);
-      if (newUserPassword != newUserConfirmPassword) {
-        toast.error("Password and confirm password should be same.");
-      } else {
-        axios
-          .post("your_api_endpoint", postData)
-          .then((response) => {
-            // Handle the response
-            console.log("Response:", response.data);
-          })
-          .catch((error) => {
-            // Handle errors
-            console.error("Error:", error);
-          });
-      }
+     
     }
   };
 
