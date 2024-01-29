@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: left;
+    padding-left: 20px; /* Adjust padding as needed */
+    background-color: #f3f3f3;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-image {
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+  }
+  .saree-store{
+    color:#ee3e00
+  }
+  @media only screen and (max-width: 768px) {
+    .hero {
+        font-size: 10px;
+    }
+
+   
+}

@@ -1,0 +1,50 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Paithani Sarees from Maharastra",
+        "price": 3000,
+        "currency":"₹",
+        "description": "Beautiful Paithani Saree is threaded with pure silk and features.",
+        "category": "Electronics",
+        "image": "1.jpg",
+        "recommended":true,
+        "quantity":2
+      },
+      {
+        "id": 2,
+        "name": "Banarasi Sarees from Uttar Pradesh",
+        "price": 2500,
+        "currency":"₹",
+        "description": "Every Indian knows about the grace and elegance of Banarasi sarees.",
+        "category": "Clothing",
+        "image": "product2.jpg",
+        "newPrice":1999,
+        "quantity":1
+
+      },
+      {
+        "id": 3,
+        "name": "Organza Sarees from Banaras",
+        "price": 790,
+        "currency":"₹",
+        "description": "Organza sarees are popular for their unique soft silk fabric and variety of designs.",
+        "category": "Home & Kitchen",
+        "image": "product3.jpg",
+        "recommended":true,
+        "quantity":3
+      },
+      {
+        "id": 4,
+        "name": "Chanderi Saree from Madhya Pradesh",
+        "price": 999,
+        "currency":"₹",
+        "description": "The Chanderi saree is originated from Chanderi village.It is made from silk or cotton.",
+        "category": "Beauty",
+        "image": "product4.jpg",
+        "quantity":2
+      }
+     
+    ]
+  }
+  

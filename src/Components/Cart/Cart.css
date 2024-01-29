@@ -1,0 +1,137 @@
+.text-section {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+.main-cart {
+  display: flex;
+}
+.cart-list {
+  width: 70%;
+  margin-right: 30px;
+  padding: 10px;
+}
+.cart-item {
+  padding: 5px;
+  /* border: 1px solid #c5c2c2; */
+  border-radius: 5px;
+  display: flex;
+}
+.item-details {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50%;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.category-heading {
+  font-size: 14px;
+  color: #555555;
+}
+.item-img {
+  height: 150px;
+  border-radius:10px
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.cart-button-remove {
+  background: #f14848;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cart-button-remove:hover {
+  background: #df2626;
+}
+.cart-checkout-container {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 15px;
+}
+.cart-checkout {
+  width: 23%;
+}
+.cart-checkout-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.cart-checkout-container hr {
+  opacity: 0.7;
+}
+.sub-total {
+  display: flex;
+  justify-content: space-between;
+  color: #595353;
+  font-size: 14px;
+}
+.total-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.total-count {
+  margin: 20px 0px;
+}
+.checkout-btn {
+  text-align: center;
+  background: yellow;
+  padding: 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.policies {
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.product-in-cart{
+    width:210px;
+    margin: 0px !important;
+}
+@media only screen and (max-width: 768px) {
+  .main-cart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .trending-container-cart{
+    display: none;
+  }
+  .cart-list {
+    width: 90%;
+    text-align: center;
+    padding: 0px;
+    margin-right: 0px;
+  }
+  .cart-item {
+    display: block;
+  }
+  .item-details {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cart-checkout {
+    width:100%;
+  }
+  .cart-button-remove {
+    margin-top: 10px;
+  }
+}

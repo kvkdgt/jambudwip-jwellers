@@ -1,0 +1,151 @@
+.trending-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-trending {
+  max-width: 1300px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.show-btn {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.show-btn:hover {
+  background-color: rgb(28, 27, 27);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.category {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.product-info h3 {
+  margin-top: 0;
+}
+
+.category h3 {
+  font-weight: 600;
+}
+
+.product-info p {
+  color: #666;
+}
+
+.price {
+  color: #e44d26;
+  font-weight: bold;
+  padding-left: 15px;
+  color: #666;
+}
+
+.product .buttons {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart {
+  color: #000000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  color: white !important;
+  background: #000000;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.order-now {
+  color: white;
+  background: #000000;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.order-now:hover{
+  color: #000000 !important;
+  background-color: #fff !important;
+  border:#000000 solid 1px
+}
+.productList{
+  position: relative;
+  cursor: pointer;
+}
+.discount {
+  position: absolute;
+  color: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  border-radius: 15px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.category-img{
+  height:70px;
+  width:70px
+}
+@media only screen and (max-width: 768px) {
+  .show-btn {
+    display: none;
+  }
+  .trending-items {
+    justify-content: center;
+  }
+}
